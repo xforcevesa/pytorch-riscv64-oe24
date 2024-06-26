@@ -4,10 +4,10 @@
 The RISC-V software ecosystem is still under construction, and it is common to encounter difficulties when trying to use popular software packages. This article provides a guide on how to install PyTorch in a RISC-V environment.
 
 The system environment is shown in the image below:
-![System Environment](https://img-blog.csdnimg.cn/direct/0d8af7fa06064de7a3ddfc25abf356c6.png)
+![System Environment](./images/0d8af7fa06064de7a3ddfc25abf356c6.png)
 
 The CPU model is SOPHON SG2042, RV64GC architecture, with V extension, 64 cores, and a clock speed of 2.0GHz. The toolchain versions are as shown:
-![Toolchain Versions](https://img-blog.csdnimg.cn/direct/2bf27850153048b99684c642edbc92bf.png#pic_center)
+![Toolchain Versions](./images/2bf27850153048b99684c642edbc92bf.png)
 
 ## Steps
 ### Step 1: Install Packages
@@ -121,7 +121,7 @@ This will automatically complete the build process. The build time is quite long
 
 ### Step 5: Verify Installation
 If no errors occurred during the installation, the process is complete. The following shows a verification test:
-![Verification](https://img-blog.csdnimg.cn/direct/081e154746d44a45bd7e263ecc494818.png)
+![Verification](./images/081e154746d44a45bd7e263ecc494818.png)
 
 If you get the corresponding output as shown in the image, PyTorch has been successfully installed.
 

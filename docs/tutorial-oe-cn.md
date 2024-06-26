@@ -2,9 +2,10 @@
 # 前言
 现如今RISC-V软件生态正在建设中，难免会出现大量常用软件包无法直接方便使用的情况。本文就教大家如何在RISC-V环境中安装PyTorch。
 系统环境如图所示：
-![系统环境](https://img-blog.csdnimg.cn/direct/0d8af7fa06064de7a3ddfc25abf356c6.png)CPU型号为SOPHON SG2042，RV64GC架构，支持V拓展，64核心，主频2.0GHz。
+![系统环境](./images/0d8af7fa06064de7a3ddfc25abf356c6.png)
+CPU型号为SOPHON SG2042，RV64GC架构，支持V拓展，64核心，主频2.0GHz。
 相关工具链版本如下：
-![工具链版本](https://img-blog.csdnimg.cn/direct/2bf27850153048b99684c642edbc92bf.png#pic_center)
+![工具链版本](./images/2bf27850153048b99684c642edbc92bf.png)
 # 操作步骤
 ## 第一步：安装软件包
 使用OpenEuler的dnf软件包管理器安装，命令如下：
@@ -93,6 +94,6 @@ bash build.sh
 其将自动完成构建。构建时间很长，本人在此环境使用5进程的情况下构建时长达两三小时，可挂```tmux```或```screen```，此二者若使用需自行使用dnf包管理器进行安装。
 ## 第五步：安装后检验测试
 若安装过程中不存在报错，那么安装过程算告一段落。以下为检验测试：
-![检验](https://img-blog.csdnimg.cn/direct/081e154746d44a45bd7e263ecc494818.png)若按如图所示操作可得到相应输出，则PyTorch安装成功。
+![检验](./images/081e154746d44a45bd7e263ecc494818.png)若按如图所示操作可得到相应输出，则PyTorch安装成功。
 # 参考资料
 - [基于RISC-V架构的AI框架（Pytorch）适配](https://blog.csdn.net/m0_49267873/article/details/135670989)
