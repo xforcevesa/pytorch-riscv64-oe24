@@ -42,7 +42,7 @@ pip install expecttest types-dataclasses lark optree
 Download the：
 
 - GitHub Release：https://github.com/xforcevesa/pytorch-riscv64-oe24/releases/tag/2.3.0-alpha
-- Gitee Release：https://gitee.com/xforcevesa/pytorch-riscv64-oe24/releases/2.3.0-alpha
+- Gitee Release：https://gitee.com/xforcevesa/pytorch-riscv64-oe24/releases/tag/2.3.0-alpha
 
 After downloading the wheel file, install it with the following command：
 ```bash

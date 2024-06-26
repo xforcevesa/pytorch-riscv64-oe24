@@ -36,7 +36,7 @@ pip install expecttest types-dataclasses lark optree
 从我们的仓库下载适用于RISC-V架构的PyTorch Wheel包：
 
 - GitHub发布包：https://github.com/xforcevesa/pytorch-riscv64-oe24/releases/tag/2.3.0-alpha
-- Gitee发布包：https://gitee.com/xforcevesa/pytorch-riscv64-oe24/releases/2.3.0-alpha
+- Gitee发布包：https://gitee.com/xforcevesa/pytorch-riscv64-oe24/releases/tag/2.3.0-alpha
 
 下载后，将其上传至服务器，并安装到环境中：
 ```bash
