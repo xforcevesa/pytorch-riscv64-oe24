@@ -1,0 +1,121 @@
+/*******************************************************************************
+* Copyright 2020-2023 Intel Corporation
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*******************************************************************************/
+
+#include "dnnl_test_common.hpp"
+#include "gtest/gtest.h"
+
+#include "oneapi/dnnl/dnnl.hpp"
+#include "src/common/primitive_cache.hpp"
+
+namespace {
+void custom_unsetenv(const char *name) {
+#ifdef _WIN32
+    _putenv((std::string(name) + "=").c_str());
+#else
+    ::unsetenv(name);
+#endif
+}
+} // namespace
+
+namespace dnnl {
+
+void fill_primitive_cache(int n) {
+    using tag = memory::format_tag;
+    using dt = memory::data_type;
+
+    engine eng(get_test_engine_kind(), 0);
+    for (int i = 0; i < n; i++) {
+        // fill primitive cache with n primitives
+        auto md = memory::desc({i, 1, 1, 1}, dt::f32, tag::nchw);
+        auto relu_pd = eltwise_forward::primitive_desc(eng,
+                prop_kind::forward_inference, algorithm::eltwise_relu, md, md,
+                0.f, 0.f);
+        auto relu = eltwise_forward(relu_pd);
+    }
+}
+
+TEST(primitive_cache_test, TestDefaultCapacity) {
+    custom_unsetenv("ONEDNN_PRIMITIVE_CACHE_CAPACITY");
+    custom_unsetenv("DNNL_PRIMITIVE_CACHE_CAPACITY");
+    auto default_capacity = get_primitive_cache_capacity();
+#ifndef DNNL_DISABLE_PRIMITIVE_CACHE
+    ASSERT_EQ(default_capacity, 1024);
+#else
+    ASSERT_EQ(default_capacity, 0);
+#endif
+}
+
+#ifndef DNNL_DISABLE_PRIMITIVE_CACHE
+
+TEST(primitive_cache_test, TestInitState) {
+    ASSERT_EQ(get_primitive_cache_size(), 0);
+}
+
+TEST(primitive_cache_test, TestSetCapacity) {
+    set_primitive_cache_capacity(18);
+    ASSERT_EQ(get_primitive_cache_capacity(), 18);
+}
+
+TEST(primitive_cache_test, TestClearCache) {
+    set_primitive_cache_capacity(8);
+    fill_primitive_cache(8);
+    ASSERT_EQ(get_primitive_cache_size(), 8);
+
+    set_primitive_cache_capacity(0);
+    ASSERT_EQ(get_primitive_cache_size(), 0);
+}
+
+TEST(primitive_cache_test, TestEviction) {
+    set_primitive_cache_capacity(0);
+    set_primitive_cache_capacity(22);
+    fill_primitive_cache(30);
+    ASSERT_EQ(get_primitive_cache_size(), 22);
+}
+
+TEST(primitive_cache_test, TestSizeLessCapacity) {
+    set_primitive_cache_capacity(0);
+    set_primitive_cache_capacity(15);
+    fill_primitive_cache(12);
+    set_primitive_cache_capacity(13);
+    ASSERT_EQ(get_primitive_cache_size(), 12);
+}
+
+TEST(primitive_cache_test, TestSizeGreaterCapacity) {
+    set_primitive_cache_capacity(0);
+    set_primitive_cache_capacity(15);
+    fill_primitive_cache(12);
+    set_primitive_cache_capacity(10);
+    ASSERT_EQ(get_primitive_cache_size(), 10);
+}
+
+TEST(primitive_cache_test, TestCacheHit) {
+    set_primitive_cache_capacity(0);
+    set_primitive_cache_capacity(2);
+    fill_primitive_cache(1);
+    fill_primitive_cache(1);
+
+#if DNNL_CPU_RUNTIME != DNNL_RUNTIME_SYCL
+    if (get_test_engine_kind() == engine::kind::cpu) {
+        // Regular CPU engines are always considered equal.
+        ASSERT_EQ(get_primitive_cache_size(), 1);
+        return;
+    }
+#endif
+    ASSERT_EQ(get_primitive_cache_size(), 2);
+}
+#endif
+
+} // namespace dnnl

@@ -1,0 +1,490 @@
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 6x128x112x84:6x128x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 6x256x56x42:6x256x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 6x512x28x21:6x512x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 6x64x224x168:6x64x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x512x7x6:1x512x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1280x4x4:32x1280x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x480x8x8:32x480x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x672x4x4:32x672x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x672x8x8:32x672x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x960x4x4:32x960x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x120x16x16:32x120x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x72x16x16:32x72x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2208x7x7:1x2208x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2208x7x7:1x2208x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1664x7x7:1x1664x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=abcd --dtag=abcd 1x1664x7x7:1x1664x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_max --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=abcd --dtag=abcd 3614x4x1x1:1x1x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x8x8:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1280x7x7:1x1280x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x8x8:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x14x14:1x2048x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_sum --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=abcd --dtag=abcd 1x5x1x1:1x1x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_sum --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=abcd --dtag=abcd 1x5x1x1:1x1x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x14x14:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1280x16x16:1x1280x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_sum --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=abcd --dtag=abcd --attr-post-ops=eltwise_pow:1:-1:1.0 1x2x1x1:1x1x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_sum --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=abcd --dtag=abcd --attr-post-ops=eltwise_pow:1:-1:1.0 32x2x1x1:32x1x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x128x28x28:1x128x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x128x56x56:1x128x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x7x7:1x2048x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x256x14x14:1x256x1x1n"*5"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x256x28x28:1x256x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x512x14x14:1x512x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x512x7x7:1x512x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x64x56x56:1x64x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_sum --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=abcd --dtag=abcd 1x2x1x512:1x1x1x512n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_sum --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=abcd --dtag=abcd --attr-post-ops=eltwise_pow:1:-1:1.0 1x2x1x128:1x1x1x128n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_sum --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=abcd --dtag=abcd --attr-post-ops=eltwise_pow:1:-1:1.0 1x2x1x256:1x1x1x256n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_sum --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=abcd --dtag=abcd --attr-post-ops=eltwise_pow:1:-1:1.0 1x2x1x64:1x1x1x64n"*3"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x512x7x7:1x512x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=u8 --stag=aBcd32b --dtag=aBcd32b --attr-post-ops=eltwise_linear:1.14884 1x256x4x4:1x256x1x1n"*2"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x320x65x65:1x320x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x320x65x65:32x320x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x320x65x65:1x320x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x320x65x65:32x320x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1024x7x7:1x1024x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1024x7x7:32x1024x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1024x7x7:1x1024x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1024x7x7:32x1024x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1024x6x6:1x1024x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1024x6x6:32x1024x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1024x7x7:1x1024x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1024x7x7:32x1024x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x832x7x7:1x832x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x832x7x7:32x832x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x832x7x7:1x832x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x832x7x7:32x832x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1152x16x16:1x1152x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x144x128x128:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x144x64x64:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x240x32x32:1x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x240x64x64:1x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x32x256x256:1x32x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x480x32x32:1x480x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x672x16x16:1x672x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x672x32x32:1x672x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x96x128x128:1x96x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1152x16x16:1x1152x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x32x256x256:1x32x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x480x32x32:1x480x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x672x16x16:1x672x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x672x32x32:1x672x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x96x128x128:1x96x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x144x128x128:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x144x64x64:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x240x32x32:1x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x240x64x64:1x240x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1152x7x7:1x1152x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1280x7x7:1x1280x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x144x28x28:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x144x56x56:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x240x14x14:1x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x240x28x28:1x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x32x112x112:1x32x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x480x14x14:1x480x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x672x14x14:1x672x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x672x7x7:1x672x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x96x56x56:1x96x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1152x7x7:32x1152x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1280x7x7:32x1280x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x144x28x28:32x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x144x56x56:32x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x240x14x14:32x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x240x28x28:32x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x32x112x112:32x32x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x480x14x14:32x480x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x672x14x14:32x672x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x672x7x7:32x672x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x96x56x56:32x96x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1152x7x7:1x1152x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1280x7x7:1x1280x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x32x112x112:1x32x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x480x14x14:1x480x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x672x14x14:1x672x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x672x7x7:1x672x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x96x56x56:1x96x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f16 --stag=aBcd32b --dtag=aBcd32b --attr-post-ops=binary_mul:f32:common 1x240x14x14:1x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x144x28x28:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x144x56x56:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x240x28x28:1x240x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1152x7x7:32x1152x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1280x7x7:32x1280x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x32x112x112:32x32x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x480x14x14:32x480x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x672x14x14:32x672x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x672x7x7:32x672x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x96x56x56:32x96x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x144x28x28:32x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x144x56x56:32x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x240x14x14:32x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x240x28x28:32x240x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1152x7x7:1x1152x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1280x7x7:1x1280x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x144x28x28:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x144x56x56:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x240x14x14:1x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x240x28x28:1x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x32x112x112:1x32x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x480x14x14:1x480x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x672x14x14:1x672x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x672x7x7:1x672x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x96x56x56:1x96x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1152x7x7:32x1152x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1280x7x7:32x1280x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x144x28x28:32x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x144x56x56:32x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x240x14x14:32x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x240x28x28:32x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x32x112x112:32x32x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x480x14x14:32x480x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x672x14x14:32x672x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x672x7x7:32x672x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x96x56x56:32x96x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1152x7x7:1x1152x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1280x7x7:1x1280x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x32x112x112:1x32x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x480x14x14:1x480x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x672x14x14:1x672x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x672x7x7:1x672x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x96x56x56:1x96x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f16 --stag=aBcd32b --dtag=aBcd32b --attr-post-ops=binary_mul:f32:common 1x240x14x14:1x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x144x28x28:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x144x56x56:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x240x28x28:1x240x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1152x7x7:32x1152x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1280x7x7:32x1280x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x32x112x112:32x32x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x480x14x14:32x480x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x672x14x14:32x672x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x672x7x7:32x672x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x96x56x56:32x96x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x144x28x28:32x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x144x56x56:32x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x240x14x14:32x240x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x240x28x28:32x240x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1056x15x15:1x1056x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1056x30x30:1x1056x1x1n"*13"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1280x15x15:1x1280x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1824x15x15:1x1824x1x1n"*18"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x3072x15x15:1x3072x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x320x30x30:1x320x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x640x30x30:1x640x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x960x30x30:1x960x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1056x15x15:32x1056x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1056x30x30:32x1056x1x1n"*13"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1280x15x15:32x1280x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1824x15x15:32x1824x1x1n"*18"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x3072x15x15:32x3072x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x320x30x30:32x320x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x640x30x30:32x640x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x960x30x30:32x960x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1056x15x15:1x1056x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1056x30x30:1x1056x1x1n"*13"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1280x15x15:1x1280x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1824x15x15:1x1824x1x1n"*18"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x3072x15x15:1x3072x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x320x30x30:1x320x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x640x30x30:1x640x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x960x30x30:1x960x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1056x15x15:32x1056x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1056x30x30:32x1056x1x1n"*13"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1280x15x15:32x1280x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1824x15x15:32x1824x1x1n"*18"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x3072x15x15:32x3072x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x320x30x30:32x320x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x640x30x30:32x640x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x960x30x30:32x960x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1792x3x3:1x1792x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1792x3x3:32x1792x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1792x3x3:1x1792x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1792x3x3:32x1792x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 100x1536x8x8:100x1536x1x1n"*2"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 3200x1536x8x8:3200x1536x1x1n"*2"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 100x1536x8x8:100x1536x1x1n"*2"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 3200x1536x8x8:3200x1536x1x1n"*2"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 100x2048x7x7:100x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 3200x2048x7x7:3200x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 100x2048x7x7:100x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 3200x2048x7x7:3200x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 300x2048x4x4:300x2048x1x1n"*2"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 300x2048x4x4:300x2048x1x1n"*2"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x144x128x256:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x16x256x512:1x16x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x240x128x256:1x240x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x288x128x256:1x288x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x576x128x256:1x576x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x96x128x256:1x96x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x120x128x256:1x120x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x288x128x256:1x288x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x576x128x256:1x576x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x96x128x256:1x96x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x120x128x256:1x120x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x144x128x256:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x240x128x256:1x240x1x1n"*2"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1536x8x8:1x1536x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1536x8x8:32x1536x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1536x8x8:1x1536x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1536x8x8:32x1536x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1536x8x8:1x1536x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1536x8x8:32x1536x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1536x8x8:1x1536x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1536x8x8:32x1536x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x288x128x256:1x288x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x576x128x256:1x576x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x96x128x256:1x96x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x120x128x256:1x120x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x144x128x256:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x240x128x256:1x240x1x1n"*2"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 100x2048x7x7:100x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 100x2048x7x7:100x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x144x2x320:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x288x2x320:1x288x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x48x4x320:1x48x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x64x4x320:1x64x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x120x4x320:1x120x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x72x4x320:1x72x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x144x2x320:32x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x288x2x320:32x288x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x48x4x320:32x48x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x64x4x320:32x64x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x120x4x320:32x120x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x72x4x320:32x72x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x288x2x320:1x288x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x64x4x320:1x64x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x120x4x320:1x120x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x144x2x320:1x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x48x4x320:1x48x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x72x4x320:1x72x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x288x2x320:32x288x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x64x4x320:32x64x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x120x4x320:32x120x1x1n"*2"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x144x2x320:32x144x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x48x4x320:32x48x1x1n"*1"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x72x4x320:32x72x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x512x7x7:1x512x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x512x7x7:32x512x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x512x7x7:1x512x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x512x7x7:32x512x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x512x7x7:1x512x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x512x7x7:32x512x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x2048x7x7:32x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x2048x7x7:32x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x2048x7x7:32x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x2048x7x7:32x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x2048x7x7:32x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x2048x7x7:32x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x2048x7x7:32x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x2048x7x7:32x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x2048x7x7:32x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x2048x7x7:32x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1024x14x14:1x1024x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x7x7:1x2048x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x256x56x56:1x256x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x512x28x28:1x512x1x1n"*4"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1024x14x14:32x1024x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x2048x7x7:32x2048x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x256x56x56:32x256x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x512x28x28:32x512x1x1n"*4"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1024x14x14:1x1024x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x7x7:1x2048x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x256x56x56:1x256x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x512x28x28:1x512x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1024x14x14:32x1024x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x2048x7x7:32x2048x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x256x56x56:32x256x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x512x28x28:32x512x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x2048x7x7:32x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1024x14x14:1x1024x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x7x7:1x2048x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x256x56x56:1x256x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x512x28x28:1x512x1x1n"*4"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1024x14x14:32x1024x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x2048x7x7:32x2048x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x256x56x56:32x256x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x512x28x28:32x512x1x1n"*4"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1024x14x14:1x1024x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x7x7:1x2048x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x256x56x56:1x256x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x512x28x28:1x512x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1024x14x14:32x1024x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x2048x7x7:32x2048x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x256x56x56:32x256x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x512x28x28:32x512x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x2048x7x7:32x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1024x14x14:1x1024x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x2048x7x7:1x2048x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x256x56x56:1x256x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x512x28x28:1x512x1x1n"*4"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1024x14x14:32x1024x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x2048x7x7:32x2048x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x256x56x56:32x256x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x512x28x28:32x512x1x1n"*4"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1024x14x14:1x1024x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x7x7:1x2048x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x256x56x56:1x256x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x512x28x28:1x512x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x2048x7x7:1x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1024x14x14:32x1024x1x1n"*6"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x2048x7x7:32x2048x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x256x56x56:32x256x1x1n"*3"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=s8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x512x28x28:32x512x1x1n"*4"
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x2048x7x7:32x2048x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x1024x32x64:1x1024x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x1024x32x64:32x1024x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=aBcd32b --dtag=aBcd32b 1x1024x32x64:1x1024x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_mean --p=0 --eps=0 --sdt=u8 --ddt=f32 --stag=ABcd32a32b --dtag=ABcd32a32b 32x1024x32x64:32x1024x1x1n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_sum --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x12x368x480:1x1x368x480n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_sum --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x12x368x480:32x1x368x480n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_sum --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=aBcd16b --dtag=aBcd16b 1x12x368x480:1x1x368x480n"*1"
+#
+--reset --allow-enum-tags-only=0 --alg=reduction_sum --p=0 --eps=0 --sdt=f16 --ddt=f16 --stag=ABcd32a16b --dtag=ABcd32a16b 32x12x368x480:32x1x368x480n"*1"

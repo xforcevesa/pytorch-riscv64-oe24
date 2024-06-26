@@ -1,0 +1,11 @@
+#
+--reset --allow-enum-tags-only=0 --dir=FWD_D --flags=CH --dt=bf16:bf16 --tag=abc:abc --stat_tag=ab 1x24576x1024n"*49"
+#
+--reset --allow-enum-tags-only=0 --dir=FWD_I --flags=CH --dt=bf16:bf16 --tag=ab:ab --stat_tag= 24576x1024n"*48"
+--reset --allow-enum-tags-only=0 --dir=FWD_I --flags=CH --dt=bf16:bf16 --tag=abc:abc --stat_tag= 64x384x1024n"*1"
+#
+--reset --allow-enum-tags-only=0 --dir=FWD_I --flags=CH --dt=f32:f32 --tag=ab:ab --stat_tag= 24576x1024n"*48"
+--reset --allow-enum-tags-only=0 --dir=FWD_I --flags=CH --dt=f32:f32 --tag=abc:abc --stat_tag= 64x384x1024n"*1"
+#
+--reset --allow-enum-tags-only=0 --dir=BWD_DW --flags=CH --dt=bf16:bf16 --tag=abc:abc --stat_tag=ab 1x16384x3072n"*61"
+--reset --allow-enum-tags-only=0 --dir=FWD_D --flags=CH --dt=bf16:bf16 --tag=abc:abc --stat_tag=ab 1x16384x3072n"*121"

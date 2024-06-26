@@ -1,0 +1,10 @@
+{
+    "[python]": {
+        "editor.tabSize": 4,
+    },
+    "python.formatting.provider": "black",
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
+}
