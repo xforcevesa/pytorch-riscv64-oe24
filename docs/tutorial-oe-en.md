@@ -35,7 +35,28 @@ Alternatively, add this command to `~/.bashrc` to activate the environment autom
 pip install expecttest types-dataclasses lark optree
 ```
 
-### Step 4: Download and Modify PyTorch Source Code
+### Step 4: Install PyTorch
+
+#### Install from PyPI Wheel
+
+Download the：
+
+- GitHub Release：https://github.com/xforcevesa/pytorch-riscv64-oe24/releases/tag/2.3.0-alpha
+- Gitee Release：https://gitee.com/xforcevesa/pytorch-riscv64-oe24/releases/2.3.0-alpha
+
+After downloading the wheel file, install it with the following command：
+```bash
+source ~/venv/bin/activate
+pip install torch-2.3.0a0+gitunknown-cp311-cp311-linux_riscv64.whl
+```
+
+The following is the steps to install PyTorch from source code.
+
+If you have already installed PyTorch from PyPI, you can skip this step.
+
+
+#### Install from Source
+
 We recommend installing PyTorch version 2.3.0. First, download the source code (this process can be done locally and then uploaded to the server):
 ```bash
 wget https://github.com/pytorch/pytorch/releases/download/v2.3.0/pytorch-v2.3.0.tar.gz
@@ -82,7 +103,6 @@ Then, make the following changes:
 
 Save the changes. If the modifications were done locally, upload the modified source code to the server.
 
-### Step 5: Write and Execute the Build Script
 Create a build script:
 ```bash
 #!/bin/bash
@@ -99,11 +119,11 @@ bash build.sh
 ```
 This will automatically complete the build process. The build time is quite long; in my case, using 5 processes, it took two to three hours. Consider using `tmux` or `screen` for a persistent session. If needed, install these tools using the dnf package manager.
 
-### Step 6: Verify Installation
+### Step 5: Verify Installation
 If no errors occurred during the installation, the process is complete. The following shows a verification test:
 ![Verification](https://img-blog.csdnimg.cn/direct/081e154746d44a45bd7e263ecc494818.png)
 
 If you get the corresponding output as shown in the image, PyTorch has been successfully installed.
 
 ## References
-- [AI Framework (Pytorch) Adaptation Based on RISC-V Architecture](https://blog.csdn.net/m0_49267873/article/details/135670989)
+- [AI Framework (Pytorch) Adaptation Based on RISC-V Architecture (Chinese)](https://blog.csdn.net/m0_49267873/article/details/135670989)

@@ -28,7 +28,26 @@ source ~/venv/bin/activate
 ```bash
 pip install expecttest types-dataclasses lark optree
 ```
-## 第四步：下载并更改PyTorch源码
+## 第四步：安装PyTorch
+我们提供了两种安装PyTorch的方法：源码安装和Wheel安装。
+
+### Wheel安装
+
+从我们的仓库下载适用于RISC-V架构的PyTorch Wheel包：
+
+- GitHub发布包：https://github.com/xforcevesa/pytorch-riscv64-oe24/releases/tag/2.3.0-alpha
+- Gitee发布包：https://gitee.com/xforcevesa/pytorch-riscv64-oe24/releases/2.3.0-alpha
+
+下载后，将其上传至服务器，并安装到环境中：
+```bash
+source ~/venv/bin/activate
+pip install torch-2.3.0a0+gitunknown-cp311-cp311-linux_riscv64.whl
+```
+
+后面是为从源码安装的同学准备的，若已有wheel，可直接跳过这一步。
+
+### 源码安装
+
 我们推荐安装PyTorch 2.3.0版本。首先下载源码（这一过程可先在本地进行然后上传到服务器）：
 ```bash
 wget https://github.com/pytorch/pytorch/releases/download/v2.3.0/pytorch-v2.3.0.tar.gz
@@ -56,7 +75,6 @@ cd ..
 在语句下：```add_executable(test_api ${TORCH_API_TEST_SOURCES})```
 添加：```target_compile_options(test_api PUBLIC -Wno-nonnull)```
 做好更改后保存，若是在本地进行更改请将更改后的源码上传至服务器。
-## 第五步：撰写构建脚本并构建
 撰写构建脚本：
 ```bash
 #!/bin/bash
@@ -73,7 +91,7 @@ python3 setup.py develop --cmake
 bash build.sh
 ```
 其将自动完成构建。构建时间很长，本人在此环境使用5进程的情况下构建时长达两三小时，可挂```tmux```或```screen```，此二者若使用需自行使用dnf包管理器进行安装。
-## 第六步：安装后检验测试
+## 第五步：安装后检验测试
 若安装过程中不存在报错，那么安装过程算告一段落。以下为检验测试：
 ![检验](https://img-blog.csdnimg.cn/direct/081e154746d44a45bd7e263ecc494818.png)若按如图所示操作可得到相应输出，则PyTorch安装成功。
 # 参考资料
